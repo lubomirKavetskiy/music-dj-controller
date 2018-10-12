@@ -16,23 +16,23 @@ self.__precacheManifest = [
     "url": "/music-dj-controller/static/js/runtime~main.b3f14903.js"
   },
   {
-    "revision": "5a1b9b49ce13900cff12",
-    "url": "/music-dj-controller/static/js/main.5a1b9b49.chunk.js"
+    "revision": "4acc6c332a88ac5585d4",
+    "url": "/music-dj-controller/static/js/main.4acc6c33.chunk.js"
   },
   {
-    "revision": "e9c20d25314ab4692be6",
-    "url": "/music-dj-controller/static/js/1.e9c20d25.chunk.js"
+    "revision": "42eec0d46d3be3bd84a1",
+    "url": "/music-dj-controller/static/js/1.42eec0d4.chunk.js"
   },
   {
-    "revision": "5a1b9b49ce13900cff12",
-    "url": "/music-dj-controller/static/css/main.e9717fc5.chunk.css"
+    "revision": "4acc6c332a88ac5585d4",
+    "url": "/music-dj-controller/static/css/main.f846635e.chunk.css"
   },
   {
-    "revision": "e9c20d25314ab4692be6",
+    "revision": "42eec0d46d3be3bd84a1",
     "url": "/music-dj-controller/static/css/1.f4289910.chunk.css"
   },
   {
-    "revision": "63e4f373fb173dfe346dd3351a3e2308",
+    "revision": "5a3576a102b86bb4960a0a8d5e3b1f29",
     "url": "/music-dj-controller/index.html"
   }
 ];

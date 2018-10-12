@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/music-dj-controller/precache-manifest.2a983465ad3293017e3ce257113926b8.js"
+  "/music-dj-controller/precache-manifest.56bc786a54356563fc52f7a75a489c63.js"
 );
 
 workbox.clientsClaim();
