@@ -20,5 +20,4 @@ npm run build
 * Redux
 * Material UI React
 
-### DEMO
-[a link](https://lubomirkavetskiy.github.io/music-dj-controller/)
+[Demo](https://lubomirkavetskiy.github.io/music-dj-controller/)
