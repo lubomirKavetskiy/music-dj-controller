@@ -1,0 +1,11 @@
+@import '../scss/animate';
+
+.main-wrapper {
+  animation: 100s scroll infinite linear;
+  background-attachment: fixed;
+  background-image: url('../img/bg_image.jpg');
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 40px);
+  padding: 20px;
+}

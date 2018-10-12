@@ -1,0 +1,8 @@
+// customize default Material UI React styles
+.select > div > div {
+  background-color: transparent !important;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

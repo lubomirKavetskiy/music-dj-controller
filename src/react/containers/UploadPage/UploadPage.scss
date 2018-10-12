@@ -1,0 +1,19 @@
+@import '../../../scss/variables';
+
+.tracks-list {
+  padding-left: 0;
+
+  &__item {
+    align-items: center;
+    color: $color-black;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: $common-value;
+  }
+}
+
+.player__title {
+  color: $color-dark-blue;
+  font-size: 22px;
+}

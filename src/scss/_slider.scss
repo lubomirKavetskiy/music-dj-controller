@@ -1,0 +1,7 @@
+@import './variables';
+
+// customize default Material UI React styles
+.slider {
+  height: 2px;
+  margin-bottom: $common-value;
+}

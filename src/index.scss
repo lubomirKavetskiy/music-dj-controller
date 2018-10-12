@@ -1,0 +1,14 @@
+@import './scss/button';
+@import './scss/fonts';
+@import './scss/select';
+@import './scss/slider';
+@import './scss/variables';
+
+// reset styles
+body {
+  bottom: 0;
+  color: $color-black;
+  font-family: "Museo Sans";
+  margin: 0;
+  padding: 0;
+}

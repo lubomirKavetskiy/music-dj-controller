@@ -1,0 +1,35 @@
+@import '../../../scss/variables';
+
+// customize default icon Material UI React styles
+.paper {
+  border-radius: 0 !important;
+  opacity: .7;
+  padding: $common-value;
+}
+
+.common-controller {
+  &-container {
+    background-color: #fff;
+    display: flex;
+    margin: 12px;
+    opacity: .7;
+    padding: $common-value;
+    width: 100%;
+  }
+
+  &__buttons {
+    display: flex;
+    margin-right: $common-value;
+  }
+
+  &__slider {
+    flex: 1 1;
+  }
+
+  &__volume {
+    color: $color-dark-blue;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+  }
+}

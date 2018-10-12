@@ -1,0 +1,55 @@
+@import '../../scss/variables';
+
+.track {
+  &__img {
+    width: 100%;
+  }
+
+  &__title,
+  &__current-position,
+  &__current-volume,
+  &-volume-speed-container {
+    align-items: center;
+    color: $color-dark-blue;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+  }
+
+  &__title > p {
+    margin-bottom: 15px;
+  }
+
+  &__number {
+    color: $color-black;
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-top: 0;
+  }
+
+  &__current-position,
+  &__current-volume,
+  &__current-speed {
+    font-size: 18px;
+  }
+
+  &__current-position {
+    margin-top: 0;
+  }
+
+  &-volume-speed-container {
+    align-items: flex-start;
+
+    &__volume {
+      width: 60%;
+    }
+  }
+
+  &__current-volume {
+    margin-bottom: 32px;
+  }
+
+  &__current-speed {
+    margin-bottom: 0;
+  }
+}

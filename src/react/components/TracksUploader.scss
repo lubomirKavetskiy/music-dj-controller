@@ -1,0 +1,44 @@
+@import '../../scss/variables';
+
+// customize default react-dropzone styles
+.dropzone-wrapper {
+  > div {
+    align-items: center;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh !important;
+    margin-bottom: $common-value;
+    width: 100% !important;
+  }
+
+  .material-icons {
+    width: auto;
+  }
+
+  .note-text {
+    font-size: 12px;
+    margin: 0;
+  }
+}
+
+.loader-container {
+  align-items: center;
+  bottom: 0;
+  cursor: wait;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+// customize default icon Material UI React styles
+.fa-cloud-upload-alt {
+  font-size: 32px !important;
+  margin-bottom: 20px;
+}

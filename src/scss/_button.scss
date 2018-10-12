@@ -1,0 +1,48 @@
+@import './variables';
+
+// customize default Material UI React styles
+button:disabled {
+  opacity: .5;
+  pointer-events: auto !important;
+
+  &:hover {
+    cursor: not-allowed;
+  }
+
+  > span {
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $common-value;
+}
+
+.button {
+  &-wrap {
+    margin: 12px;
+    width: 100%;
+  }
+  
+  // customize default Material UI React styles
+  &--link {
+    border-radius: 0 !important;
+  }
+  
+  &--circle {
+    border-radius: 50% !important;
+    min-height: 50px !important;
+    min-width: 50px !important;
+    padding: 0 !important;
+  
+    &:hover {
+      color: $color-green;
+    }
+  
+    .fas {
+      font-size: 22px;
+    }
+  }
+}
