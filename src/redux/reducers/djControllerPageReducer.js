@@ -72,7 +72,6 @@ export default (state = initialState, action) => {
       };
 
     case SET_COMMON_VOLUME:
-      console.log('reducer', payload);
       return {
         ...state,
         commonVolume: payload,
